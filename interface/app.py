@@ -5,7 +5,8 @@ import os
 # Adicionar src ao sys.path para garantir importações
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from src.main import obter_resposta  # Importando a função corretamente
+# Importando a função corretamente
+from src.chatbot import obter_resposta
 
 # Configurar título da aplicação
 st.set_page_config(page_title="Chatbot LambdaAI", layout="centered")
