@@ -22,6 +22,9 @@ def build_chain():
     prompt = get_prompt()
     
     question_chain = create_stuff_documents_chain(llm, prompt)
-    rag_chain = create_retrieval_chain(retriever, question_chain)
+    rag_chain = create_retrieval_chain(
+    retriever=retriever,
+    combine_docs_chain=question_chain
+)
     
     return rag_chain

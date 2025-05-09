@@ -9,11 +9,11 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.chatbot import obter_resposta
 
 # Configurar título da aplicação
-st.set_page_config(page_title="Chatbot LambdaAI", layout="centered")
+st.set_page_config(page_title="Chatbot Blackout", layout="centered")
 
 # Interface do chatbot
-st.title("🤖 Chatbot LambdaAI")
-st.write("Pergunte algo sobre a LambdaAI!")
+st.title("🤖 Chatbot Blackout")
+st.write("Pergunte algo sobre a Blackout!")
 
 # Inicializar histórico da conversa
 if "mensagens" not in st.session_state:

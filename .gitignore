@@ -1,0 +1,19 @@
+# Arquivos de ambiente
+.env
+
+# Bancos locais do Chroma
+chroma_db/
+db/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos do sistema
+.DS_Store
+
+# Arquivos do Streamlit
+.streamlit/
+
+# Banco do Chroma (caso não use persistência online)
+*.sqlite3

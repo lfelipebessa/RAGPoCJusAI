@@ -7,7 +7,7 @@ from src.vectorstore import carregar_pdf, dividir_em_chunks, salvar_no_chroma
 from src.chain import build_chain
 
 # Pergunta de teste
-PERGUNTA_TESTE = "Qual o número de telefone da LambdaAI?"
+PERGUNTA_TESTE = "Quais são os pacotes da Blackout?"
 
 def main():
     print("📄 Etapa 1: Carregando documento...")
