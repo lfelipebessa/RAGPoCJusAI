@@ -16,4 +16,5 @@ __pycache__/
 .streamlit/
 
 # Banco do Chroma (caso não use persistência online)
-*.sqlite3
+*.sqlite3venv/
+chroma_db/
